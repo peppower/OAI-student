@@ -14,18 +14,20 @@ Tijmen Muller (tijmen.muller@hu.nl)
 Let op! Het is niet toegestaan om bestaande modules te importeren en te
         gebruiken, zoals `math` en `statistics`.
 """
+#    TODO:
+#     ONTVANG X
+#     BEPAAL Y = IN VAN X
+#     ALS Y > 0
+#    	  BEREKEN Y = Y + 1
+#     ALS X < 0
+# 	      BEREKEN Y = Y + 1
+#     GEEF Y TERUG
 
 
 def floor(real):
-    """
-    Bepaal het grootste gehele getal (int), dat kleiner dan of gelijk is aan het gegeven reeel getal (float).
-
-    Args:
-        real (float): Een reeel getal.
-
-    Returns:
-        int: Het grootste gehele getal (int), dat kleiner dan of gelijk is aan het gegeven reeel getal.
-    """
+    y = int(real)
+    if real < 0:
+        y = y + 1
     return 0
 
 

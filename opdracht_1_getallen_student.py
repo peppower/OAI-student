@@ -23,7 +23,6 @@ Lever je werk in op Canvas als alle tests slagen.
 Let op! Het is niet toegestaan om bestaande modules te importeren en te
         gebruiken, zoals `math` en `statistics`.
 """
-from pdb import TESTCMD
 
 # TODO: Vul hier je naam, klas en studentnummer in.
 naam = "Pepijn"
@@ -37,9 +36,7 @@ studentnummer = 1880330
     Schrijf je pseudocode keywords met alleen hoofdletters (ALS, VOOR, etc...).
     
 """
-#   TODO:
-#   1
-
+#   TODO: []
 
 """
 2. Implementatie ceil
